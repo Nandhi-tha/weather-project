@@ -1,0 +1,39 @@
+body {
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-data {
+    text-align: center; 
+    padding: 20px;
+    border: 1px solid black; 
+    border-radius: 10px; 
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:black;
+}
+
+input{
+    padding: 10px;
+    width: 300px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5 px;
+    margin-bottom: 5px;
+}
+
+.city-data input[type="submit"] { 
+    width: 100px;  
+    height: 30px;
+    font-size: 14px;     
+    padding: 5px;        
+    margin-top: 10px;
+}
