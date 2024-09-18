@@ -6,7 +6,10 @@ import os
 load_dotenv()
 
 def current_weather():
-    print("\n** Get  currrent weather conditions **\n")
+    print("\n")
+    print("****************************************")
+    print("*    Get currrent weather conditions   *")
+    print("****************************************")
     city = input("\n Enter a city name:\n")
     request_url = f'https://api.openweathermap.org/data/2.5/weather?appid={os.getenv("API_KEY")}&q={city}&units=imperial'
     #print(request_url)
